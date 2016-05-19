@@ -12,14 +12,11 @@ if ($(window).width() <= 1280) {
 
 // Variables   这里还要对应_layouts/index.html中的显示内容！
     tag1       = $('.pl__all'),
-    tag2       = $('.linux'),
-    tag3       = $('.matlab'),
-    tag4       = $('.network'),
-    tag5       = $('.algorithm'),
-    tag6       = $('.life'),
-    tag7       = $('.math'),
-    tag8       = $('.knack');
-	tag9       = $('.other');
+    tag2       = $('.R'),
+    tag3       = $('.RNA-seq'),
+    tag4       = $('.python'),
+    tag5       = $('.life'),
+    tag6       = $('.other');
 var sidebar    = $('#sidebar'),
     container  = $('#post'),
     content    = $('#pjax'),
